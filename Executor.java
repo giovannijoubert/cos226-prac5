@@ -32,7 +32,7 @@ public class Executor {
 		try
 		{
 			first_thread.join();
-
+			
 			while (iterator.hasPrevious())
 			{
 				iterator.previous().join();
